@@ -1,8 +1,8 @@
 from config import *
 import re
 def get_rank(id, cid) -> str:
-   if id == 5571722913 or id == 5571722913:
-      return 'المطور الاسطوره عاشق الصمت'
+   if id == 7480642174 or id == 7480642174:
+      return 'المطور محمد ✨️'
    if id == int(hmshelp):
       return 'البوت'
    if id == int(r.get(f'{hmshelp}botowner')):
@@ -65,7 +65,7 @@ def admin_pls(id, cid) -> bool:
       return False
 
 def mod_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 5571722913:
       return True
    if id == 5571722913 or id == 5571722913:
       return True
@@ -107,9 +107,9 @@ def owner_pls(id, cid) -> bool:
       return False
 
 def gowner_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 5571722913 or id == 7480642174:
       return True
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
    if id == int(hmshelp):
       return True
@@ -125,9 +125,9 @@ def gowner_pls(id, cid) -> bool:
       return False
 
 def dev_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
    if id == int(hmshelp):
       return True
@@ -141,9 +141,9 @@ def dev_pls(id, cid) -> bool:
       return False
 
 def dev2_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
    if id == int(hmshelp):
       return True
@@ -155,9 +155,9 @@ def dev2_pls(id, cid) -> bool:
       return False
 
 def devp_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
    if id == int(hmshelp):
       return True
@@ -168,9 +168,9 @@ def devp_pls(id, cid) -> bool:
 
 
 def pre_pls(id, cid) -> bool:
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
-   if id == 5571722913 or id == 5571722913:
+   if id == 7480642174 or id == 7480642174:
       return True
    if id == int(r.get(f'{hmshelp}botowner')):
       return True
@@ -196,8 +196,8 @@ def pre_pls(id, cid) -> bool:
    
 def get_devs_br():
    list = []
-   if not int(r.get(f'{hmshelp}botowner')) == 5571722913:
-      list.append(5571722913)
+   if not int(r.get(f'{hmshelp}botowner')) == 7480642174:
+      list.append(7480642174)
    list.append(int(r.get(f'{hmshelp}botowner')))
    if r.smembers(f'{hmshelp}DEV2'):
       for dev2 in r.smembers(f'{hmshelp}DEV2'):
