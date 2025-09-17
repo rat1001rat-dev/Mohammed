@@ -197,7 +197,7 @@ def global_filter(c,m):
             print(f"Error getting developer media: {media_error}")
         
         return m.reply_animation(
-            'رابط صوره',
+            'https://i.postimg.cc/Bn9RMn7J/IMG-20250917-121555-163.jpg',
             caption=f"\n❲ مبرمج السورس  ❳\nᥫ᭡\n ⌔︙ժᥱ᥎ ꪀᥲ️ꪔᥱ : {dev_name}\n\n"
                    f"⌔︙ժᥱ᥎ : {dev_username}\n"
                    f"⌔︙ժᥱ᥎ ႦᎥ᥆ : ❲  {dev_bio} ❳",
