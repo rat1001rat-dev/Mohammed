@@ -55,7 +55,7 @@ async def english_whisper(app,iquery):
        InlineQueryResultArticle(
           title=f"📪 Send whisper for ( {username} ) .",
           description=timenow,
-          url="http://t.me/YamenThon",
+          url="http://t.me/k_q505",
           thumb_url=url,
           thumb_width=128, thumb_height=128,
           input_message_content=InputTextMessageContent(
@@ -102,7 +102,7 @@ async def arabic_whisper(app,iquery):
        InlineQueryResultArticle(
           title=f"📪 ارسال همسة لـ {username}",
           description=timenow,
-          url="http://t.me/YamenThon",
+          url="http://t.me/k_q505",
           thumb_url=url,
           thumb_width=128, thumb_height=128,
           input_message_content=InputTextMessageContent(
@@ -182,7 +182,7 @@ async def get_whisper_en(app,query):
 @Client.on_inline_query()
 async def whisper(c, query):
     text = '''
-• `@ELLNEVIP_BOT Hi @YamenThon`
+• `@Il7_rbot Hi @k_q505`
 '''
     if not query.from_user.language_code or not query.from_user.language_code == 'en':
       await query.answer(
@@ -193,8 +193,8 @@ async def whisper(c, query):
                 title="🔒 اكتب الهمسة + يوزر الشخص",
                 thumb_url='https://k.top4top.io/p_2727oxo3z0.jpg',
                 thumb_width=128, thumb_height=128,
-                description='@ELLNEVIP_BOT Hello @YamenThon',
-                url='https://t.me/YamenThon',
+                description='@Il7_rbot Hello @k_q505',
+                url='https://t.me/k_q505',
                 reply_markup=InlineKeyboardMarkup (
                 [
                 [InlineKeyboardButton ("جرب بوت الهمسة", switch_inline_query='Hi @all')]
@@ -213,8 +213,8 @@ async def whisper(c, query):
                 title="🎉 اكتب الهمسه + اليوزر",
                 thumb_url='https://k.top4top.io/p_3430dbmh31.jpg',
                 thumb_width=128, thumb_height=128,
-                description='@VN1BoT Hello @L_k505',
-                url='https://t.me/YamenThon',
+                description='@Il7_rbot Hello @L_k505',
+                url='https://t.me/k_q505',
                 reply_markup=InlineKeyboardMarkup (
                 [
                 [InlineKeyboardButton ("الهمسة", switch_inline_query='Hi @all')]
